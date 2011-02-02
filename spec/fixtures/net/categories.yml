@@ -1,0 +1,28 @@
+--- 
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: https://webservices.vividseats.com:443/rest/v2/getCategories?accessId=test
+    body: 
+    headers: 
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      server: 
+      - Apache-Coyote/1.1
+      pragma: 
+      - No-cache
+      cache-control: 
+      - no-cache
+      expires: 
+      - Wed, 31 Dec 1969 18:00:00 CST
+      content-type: 
+      - application/json
+      content-length: 
+      - "3582"
+      date: 
+      - Wed, 02 Feb 2011 19:42:01 GMT
+    body: "[{\"categoryId\":21,\"eventType\":\"CONCERT\",\"name\":\"Adult Contemporary\"},{\"categoryId\":74,\"eventType\":\"CONCERT\",\"name\":\"Alternative\"},{\"categoryId\":55,\"eventType\":\"SPORT\",\"name\":\"Arena Football\"},{\"categoryId\":62,\"eventType\":\"THEATER\",\"name\":\"Arts and Theater\"},{\"categoryId\":22,\"eventType\":\"THEATER\",\"name\":\"Ballet and Dance\"},{\"categoryId\":38,\"eventType\":\"SPORT\",\"name\":\"Baseball\"},{\"categoryId\":40,\"eventType\":\"SPORT\",\"name\":\"Basketball\"},{\"categoryId\":19,\"eventType\":\"CONCERT\",\"name\":\"Blues and Jazz\"},{\"categoryId\":32,\"eventType\":\"SPORT\",\"name\":\"Boxing and Fighting\"},{\"categoryId\":64,\"eventType\":\"THEATER\",\"name\":\"Broadway\"},{\"categoryId\":25,\"eventType\":\"THEATER\",\"name\":\"Circus\"},{\"categoryId\":24,\"eventType\":\"THEATER\",\"name\":\"Cirque\"},{\"categoryId\":59,\"eventType\":null,\"name\":\"City\"},{\"categoryId\":16,\"eventType\":\"CONCERT\",\"name\":\"Classical\"},{\"categoryId\":41,\"eventType\":\"SPORT\",\"name\":\"College\"},{\"categoryId\":11,\"eventType\":\"THEATER\",\"name\":\"Comedy\"},{\"categoryId\":14,\"eventType\":\"CONCERT\",\"name\":\"Country and Folk\"},{\"categoryId\":60,\"eventType\":\"CONCERT\",\"name\":\"Dance/Electronica\"},{\"categoryId\":50,\"eventType\":\"SPORT\",\"name\":\"Extreme Sports\"},{\"categoryId\":10,\"eventType\":\"THEATER\",\"name\":\"Family\"},{\"categoryId\":37,\"eventType\":\"SPORT\",\"name\":\"Football\"},{\"categoryId\":29,\"eventType\":\"SPORT\",\"name\":\"Gymnastics\"},{\"categoryId\":73,\"eventType\":\"CONCERT\",\"name\":\"Hard Rock\"},{\"categoryId\":39,\"eventType\":\"SPORT\",\"name\":\"Hockey\"},{\"categoryId\":33,\"eventType\":\"SPORT\",\"name\":\"Horse Racing\"},{\"categoryId\":57,\"eventType\":\"SPORT\",\"name\":\"Lacrosse\"},{\"categoryId\":52,\"eventType\":\"CONCERT\",\"name\":\"Latin Music\"},{\"categoryId\":27,\"eventType\":\"THEATER\",\"name\":\"Magic\"},{\"categoryId\":2,\"eventType\":\"SPORT\",\"name\":\"MLB Baseball\"},{\"categoryId\":70,\"eventType\":\"SPORT\",\"name\":\"Motorsports\"},{\"categoryId\":63,\"eventType\":\"CONCERT\",\"name\":\"Music Festivals\"},{\"categoryId\":23,\"eventType\":\"THEATER\",\"name\":\"Musical\"},{\"categoryId\":7,\"eventType\":\"SPORT\",\"name\":\"NASCAR Racing\"},{\"categoryId\":3,\"eventType\":\"SPORT\",\"name\":\"NBA Basketball\"},{\"categoryId\":6,\"eventType\":\"SPORT\",\"name\":\"NCAA Basketball\"},{\"categoryId\":5,\"eventType\":\"SPORT\",\"name\":\"NCAA Football\"},{\"categoryId\":61,\"eventType\":\"CONCERT\",\"name\":\"New Age\"},{\"categoryId\":1,\"eventType\":\"SPORT\",\"name\":\"NFL Football\"},{\"categoryId\":4,\"eventType\":\"SPORT\",\"name\":\"NHL Hockey\"},{\"categoryId\":28,\"eventType\":\"THEATER\",\"name\":\"Off-Broadway\"},{\"categoryId\":65,\"eventType\":\"SPORT\",\"name\":\"Olympics\"},{\"categoryId\":12,\"eventType\":\"THEATER\",\"name\":\"Opera\"},{\"categoryId\":68,\"eventType\":\"CONCERT\",\"name\":\"Other Concerts\"},{\"categoryId\":67,\"eventType\":\"SPORT\",\"name\":\"Other Sports\"},{\"categoryId\":69,\"eventType\":\"THEATER\",\"name\":\"Other Theater\"},{\"categoryId\":8,\"eventType\":\"SPORT\",\"name\":\"PGA Golf\"},{\"categoryId\":17,\"eventType\":\"CONCERT\",\"name\":\"Pop\"},{\"categoryId\":53,\"eventType\":\"THEATER\",\"name\":\"Public Speaking\"},{\"categoryId\":20,\"eventType\":\"CONCERT\",\"name\":\"R & B\"},{\"categoryId\":42,\"eventType\":\"SPORT\",\"name\":\"Racing\"},{\"categoryId\":15,\"eventType\":\"CONCERT\",\"name\":\"Rap/Hip Hop\"},{\"categoryId\":54,\"eventType\":\"CONCERT\",\"name\":\"Reggae\"},{\"categoryId\":18,\"eventType\":\"CONCERT\",\"name\":\"Rock\"},{\"categoryId\":36,\"eventType\":\"SPORT\",\"name\":\"Rodeo\"},{\"categoryId\":30,\"eventType\":\"SPORT\",\"name\":\"Rugby\"},{\"categoryId\":31,\"eventType\":\"SPORT\",\"name\":\"Skating\"},{\"categoryId\":34,\"eventType\":\"SPORT\",\"name\":\"Soccer\"},{\"categoryId\":35,\"eventType\":\"SPORT\",\"name\":\"Tennis\"},{\"categoryId\":71,\"eventType\":\"SPORT\",\"name\":\"Volleyball\"},{\"categoryId\":51,\"eventType\":\"CONCERT\",\"name\":\"World Music\"},{\"categoryId\":13,\"eventType\":\"SPORT\",\"name\":\"Wrestling\"}]"
+    http_version: "1.1"
