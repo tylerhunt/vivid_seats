@@ -1,6 +1,6 @@
 Gem::Specification.new do |gem|
   gem.name = 'vivid_seats'
-  gem.version = '0.0.1'
+  gem.version = '0.0.2'
   gem.summary = 'An interface library for the Vivid Seats web service.'
   gem.homepage = %q{http://github.com/tylerhunt/vivid_seats}
   gem.authors = ['Tyler Hunt']
