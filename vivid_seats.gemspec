@@ -7,7 +7,7 @@ Gem::Specification.new do |gem|
 
   gem.files = Dir['LICENSE', 'lib/**/*']
   gem.add_dependency 'httparty', '0.6.1'
-  gem.add_dependency 'json', '1.5.1'
+  gem.add_dependency 'json', '~> 1.4.6'
   gem.add_development_dependency 'rspec', '2.3.0'
   gem.add_development_dependency 'vcr', '1.4.0'
   gem.add_development_dependency 'webmock', '1.6.1'
