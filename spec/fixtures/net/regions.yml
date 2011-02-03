@@ -1,0 +1,28 @@
+--- 
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: https://webservices.vividseats.com:443/rest/v2/getRegions?accessId=test
+    body: 
+    headers: 
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      server: 
+      - Apache-Coyote/1.1
+      pragma: 
+      - No-cache
+      cache-control: 
+      - no-cache
+      expires: 
+      - Wed, 31 Dec 1969 18:00:00 CST
+      content-type: 
+      - application/json
+      content-length: 
+      - "1699"
+      date: 
+      - Thu, 03 Feb 2011 06:26:23 GMT
+    body: "[{\"name\":\"Alabama\",\"regionId\":53},{\"name\":\"Arizona\",\"regionId\":37},{\"name\":\"Arkansas\",\"regionId\":51},{\"name\":\"Atlanta\",\"regionId\":80},{\"name\":\"Bay Area\",\"regionId\":28},{\"name\":\"Boston Area\",\"regionId\":74},{\"name\":\"Chicago Area\",\"regionId\":57},{\"name\":\"Cincinnati\",\"regionId\":17},{\"name\":\"Cleveland\",\"regionId\":16},{\"name\":\"Columbus\",\"regionId\":15},{\"name\":\"Dallas\",\"regionId\":19},{\"name\":\"Denver\",\"regionId\":40},{\"name\":\"Edmonton and Calgary\",\"regionId\":87},{\"name\":\"Hartford\",\"regionId\":73},{\"name\":\"Houston\",\"regionId\":18},{\"name\":\"Indianapolis\",\"regionId\":58},{\"name\":\"Iowa\",\"regionId\":23},{\"name\":\"Jacksonville\",\"regionId\":79},{\"name\":\"Kansas City Area\",\"regionId\":48},{\"name\":\"Kentucky\",\"regionId\":65},{\"name\":\"Las Vegas\",\"regionId\":33},{\"name\":\"Los Angeles\",\"regionId\":29},{\"name\":\"Louisiana and Mississippi\",\"regionId\":52},{\"name\":\"Memphis\",\"regionId\":82},{\"name\":\"Michigan\",\"regionId\":61},{\"name\":\"Minnesota\",\"regionId\":44},{\"name\":\"Nashville\",\"regionId\":56},{\"name\":\"Nebraska\",\"regionId\":41},{\"name\":\"New Mexico\",\"regionId\":39},{\"name\":\"New York\",\"regionId\":7},{\"name\":\"North and South Carolina\",\"regionId\":81},{\"name\":\"Oklahoma\",\"regionId\":50},{\"name\":\"Orlando\",\"regionId\":78},{\"name\":\"Philadelphia\",\"regionId\":72},{\"name\":\"Pittsburgh\",\"regionId\":14},{\"name\":\"Portland\",\"regionId\":27},{\"name\":\"Reno\",\"regionId\":31},{\"name\":\"Salt Lake City\",\"regionId\":34},{\"name\":\"San Antonio\",\"regionId\":20},{\"name\":\"San Diego\",\"regionId\":85},{\"name\":\"Seattle\",\"regionId\":26},{\"name\":\"South Florida\",\"regionId\":75},{\"name\":\"St. Louis\",\"regionId\":47},{\"name\":\"Toronto\",\"regionId\":86},{\"name\":\"Virginia\",\"regionId\":69},{\"name\":\"Washington DC and Baltimore\",\"regionId\":70},{\"name\":\"Wisconsin\",\"regionId\":46}]"
+    http_version: "1.1"

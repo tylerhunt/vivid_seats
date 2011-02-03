@@ -34,6 +34,14 @@ module VividSeats
         get('/getPerformers', :query => query)
       end
 
+      def regions(query={})
+        get('/getRegions', :query => query)
+      end
+
+      def venues(query={})
+        get('/getVenues', :query => query)
+      end
+
       def get(*args)
         response = super
 

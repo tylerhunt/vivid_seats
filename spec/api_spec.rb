@@ -52,4 +52,24 @@ describe VividSeats::API do
 
     it_behaves_like "an API call"
   end
+
+  context ".regions" do
+    subject do
+      use_cached_requests(:regions) do
+        api.regions
+      end
+    end
+
+    it_behaves_like "an API call"
+  end
+
+  context ".venues" do
+    subject do
+      use_cached_requests(:venues) do
+        api.venues
+      end
+    end
+
+    it_behaves_like "an API call"
+  end
 end
