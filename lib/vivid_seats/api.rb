@@ -10,7 +10,7 @@ module VividSeats
     include HTTParty
 
     base_uri 'https://webservices.vividseats.com/rest/v2'
-    default_params :accessId => ENV['VIVID_ACCESS_ID']
+    default_params :accessId => ENV['VIVID_SEATS_ACCESS_ID']
     parser lambda { |body, format| JSON.parse(body) }
 
     if ENV['VIVID_SEATS_PROXY']

@@ -1,6 +1,6 @@
 $:.unshift(File.expand_path('../../lib', __FILE__))
 
-ENV['VIVID_ACCESS_ID'] ||= 'test'
+ENV['VIVID_SEATS_ACCESS_ID'] ||= 'test'
 
 require 'rspec'
 require 'vivid_seats'
