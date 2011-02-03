@@ -14,4 +14,12 @@ describe VividSeats::Performer do
       end
     end
   end
+
+  context ".find" do
+    it "returns the performer with the given ID" do
+      use_cached_requests(:performers) do
+        subject.find(7145)['name'].should == 'Billy Elliot'
+      end
+    end
+  end
 end
